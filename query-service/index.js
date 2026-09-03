@@ -10,6 +10,7 @@ const posts = {};
 
 app.get("/posts", (req, res) => {
   res.send(posts);
+  console.log(posts);
 });
 
 app.post("/events", (req, res) => {
